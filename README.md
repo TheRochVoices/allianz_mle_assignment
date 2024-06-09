@@ -16,6 +16,10 @@ Clone the repo:
 git clone https://github.com/TheRochVoices/allianz_mle_assignment.git
 cd allianz_mle_assignment
 ```
+Install the requirements
+```bash
+pip install -r requirements.txt
+```
 up the feddit api:
 ```bash
 docker compose -f subfeddit_api/docker-compose.yml up
@@ -30,3 +34,5 @@ streamlit run app.py
 ```
 It then exposes a UI that looks like this:
 ![image](docs/ui.png)
+
+Also, a linting github pipeline is added to the repo: https://github.com/TheRochVoices/allianz_mle_assignment/actions
