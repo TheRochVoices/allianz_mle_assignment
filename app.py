@@ -1,8 +1,7 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
-import requests
 import time
+import requests
+import streamlit as st
+
 from api_conf import subfeddits_api, comments_api
 from utils import process_comments, convert_dict2list
 
