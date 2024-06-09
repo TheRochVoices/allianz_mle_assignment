@@ -28,3 +28,5 @@ up the UI service:
 ```bash
 streamlit run app.py
 ```
+It then exposes a UI that looks like this:
+![image](docs/ui.png)
