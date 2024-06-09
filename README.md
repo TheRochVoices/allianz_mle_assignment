@@ -7,6 +7,8 @@ The application is a total of 3 microservices, which are:
 - Subfeddit api written in FastAPI
 - ML api written in Flask
 
+![image](docs/arch.jpg)
+
 ## Running the application
 
 Clone the repo:
